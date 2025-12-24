@@ -1,10 +1,4 @@
 def get_tax_brackets():
-    """Return the tax brackets for different filing statuses.
-    
-    Returns:
-        dict: A dictionary where keys are status codes and values are lists of
-              (upper_limit, tax_rate) tuples for each tax bracket.
-    """
     return {
         0: [  # Single
             (8350, 0.10),
@@ -111,3 +105,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
